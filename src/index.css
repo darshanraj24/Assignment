@@ -1,0 +1,105 @@
+
+
+img {
+  width: 100px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 900px;
+}
+
+.card-content {
+  padding:0px 20px 20px 20px;
+}
+
+.user-card-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-card img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-card h3 {
+  margin: 0;
+}
+
+.a {
+  display: flex;
+  background-color: #ccc;
+}
+
+.card-header {
+  margin: auto;
+ 
+}
+
+.profile-page {
+  position: relative;
+}
+
+.profile-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-page .signout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.sign-out-btn {
+  position: absolute;
+  top: 80px;
+  right: 400px;
+}
+
+button{
+  text-decoration: none;
+  color: rgb(42, 42, 71);
+  background-color: rgb(182, 219, 219);
+}
+
+.profile-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-box {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.coming-soon {
+  font-style: italic;
+  color: #999;
+}
+
